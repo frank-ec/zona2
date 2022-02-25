@@ -1,7 +1,7 @@
 <?php 
 	
 	//define("BASE_URL", "http://localhost/tienda_virtual/");
-	const BASE_URL = "http://localhost/tienda_virtual";
+	const BASE_URL = "http://localhost/zona2";
 
 	//Zona horaria
 	date_default_timezone_set('America/Guayaquil');

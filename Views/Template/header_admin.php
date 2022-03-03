@@ -2,12 +2,17 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <meta name="description" content="Aplicaciones Zona 2">
+    <meta name="description" content="Aplicaciones Zona 2">  <!-- f@ Mis datos del sitio -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="author" content="Franklin Lara Cartagena">
+    <meta name="theme-color" content="#009688">
+    <link rel="shortcut icon" href="<?= media();?>/images/favicon.ico">
+
     <title><?= $data['page_tag'];?></title>
     <!-- Main CSS F@ carga estilos de Assets -->
     <link rel="stylesheet" type="text/css" href="<?= media();?>/css/main.css">
+    <link rel="stylesheet" type="text/css" href="<?= media();?>/css/style.css">
     <!-- Font-icon css-->
     <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>

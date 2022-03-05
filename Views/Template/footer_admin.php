@@ -3,7 +3,7 @@
     <script src="<?= media();?>/js/popper.min.js"></script>
     <script src="<?= media();?>/js/bootstrap.min.js"></script>
     <script src="<?= media();?>/js/main.js"></script>
-    <script src="<?= media();?>/js/fontawesome.js"></script>
+    <script src="<?= media();?>/js/fontawesome.js"></script>  <!-- F@ Mis icon de fontawesome-->
     <script src="<?= media();?>/js/functions_admin.js"></script>
     <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>

@@ -1,5 +1,5 @@
 <!-- Modal -->
-<div class="modal fade" id="modalFormRol" tabindex="-1" role="dialog" aria-hidden="true">
+<div class="modal fade" id="modalFormRol" tabindex="-1" role="dialog" aria-hidden="true"> <!-- F@ modal roles -->
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
@@ -10,55 +10,31 @@
       </div>
       <div class="modal-body">
       <div class="tile">
-            <h3 class="tile-title">Vertical Form</h3>
             <div class="tile-body">
-              <form>
+              <form id="formRol" name="formRol">  <!-- F@ Formulario rol -->
                 <div class="form-group">
-                  <label class="control-label">Name</label>
-                  <input class="form-control" type="text" placeholder="Enter full name">
+                  <label class="control-label">Nombre</label>
+                  <input class="form-control" id="txtNombre" name="txtNombre" type="text" placeholder="Nombre del rol" required="">
+                </div>
+
+                <div class="form-group">
+                  <label class="control-label">Descripción</label>
+                  <textarea class="form-control" id="txtDescripcion" name="txtDescripcion" rows="2" placeholder="Descripción del Rol"  required=""></textarea>
                 </div>
                 <div class="form-group">
-                  <label class="control-label">Email</label>
-                  <input class="form-control" type="email" placeholder="Enter email address">
+                    <label for="exampleSelect1">Estado</label>
+                    <select class="form-control" id="listStatus" name="listStatus"  required="">
+                      <option value="1">Activo</option>
+                      <option value="2">Inactivo</option>
+                    </select>
                 </div>
-                <div class="form-group">
-                  <label class="control-label">Address</label>
-                  <textarea class="form-control" rows="4" placeholder="Enter your address"></textarea>
-                </div>
-                <div class="form-group">
-                  <label class="control-label">Gender</label>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="radio" name="gender">Male
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="radio" name="gender">Female
-                    </label>
-                  </div>
-                </div>
-                <div class="form-group">
-                  <label class="control-label">Identity Proof</label>
-                  <input class="form-control" type="file">
-                </div>
-                <div class="form-group">
-                  <div class="form-check">
-                    <label class="form-check-label">
-                      <input class="form-check-input" type="checkbox">I accept the terms and conditions
-                    </label>
-                  </div>
+                <div class="tile-footer">
+                 <button class="btn btn-primary" type="submit"><i class="fa fa-fw fa-lg fa-check-circle"></i>Guardar</button>&nbsp;&nbsp;&nbsp;<a 
+                 class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Cancelar</a>
                 </div>
               </form>
             </div>
-            <div class="tile-footer">
-              <button class="btn btn-primary" type="button"><i class="fa fa-fw fa-lg fa-check-circle"></i>Register</button>&nbsp;&nbsp;&nbsp;<a class="btn btn-secondary" href="#"><i class="fa fa-fw fa-lg fa-times-circle"></i>Cancel</a>
-            </div>
           </div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
       </div>
     </div>
   </div>

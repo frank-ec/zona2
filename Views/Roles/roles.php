@@ -1,9 +1,11 @@
-<?php headerAdmin($data); //  Incluye encabezado ?>
+<?php headerAdmin($data); //  Incluye encabezado
+      getModal('modalRoles',$data) // Pasar como parametro el modal a mostrar 
+?>
 <main class="app-content">
       <div class="app-title">
         <div>
           <h1><i class="fas fa-user-tag" aria-hidden="true"></i> <?= $data['page_title'];?>
-            <button class="btn btn-primary" type="button"><i class="fas fa-plus-circle"></i> Nuevo</button>
+            <button class="btn btn-primary" type="button" onclick="openModal();"> <i class="fas fa-plus-circle"></i> Nuevo</button> <!-- F@  Abrir Modal-->
           </h1>
           
         </div>

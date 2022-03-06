@@ -8,6 +8,6 @@
     <!-- The javascript plugin to display page loading on top-->
     <script src="js/plugins/pace.min.js"></script>
     <!-- Page specific javascripts-->
-   
+    <script src="<?= media();?>/js/functions_roles.js"></script>
   </body>
 </html>

@@ -22,7 +22,12 @@
         $view_footer = "Views/Template/footer_admin.php";
         require_once($view_footer);
     }
-
+    // Abre los  modales, recibe como parametro
+    function getModal(string $nameModal, $data)
+    {
+        $view_modal = "Views/Template/Modals/{$nameModal}.php";
+        require_once $view_modal;        
+    }
 	//Muestra información formateada
 	function dep($data)
     {

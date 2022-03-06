@@ -20,7 +20,7 @@
           <div class="tile">
             <div class="tile-body">
               <div class="table-responsive">
-                <table class="table table-hover table-bordered" id="sampleTable">
+                <table class="table table-hover table-bordered" id="tableRoles"> <!-- F@  Datatables para id="tableRoles" -->
                   <thead>
                     <tr>
                       <th>Name</th>

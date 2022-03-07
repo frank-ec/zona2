@@ -10,7 +10,7 @@
 	const DB_HOST = "localhost";
 	const DB_NAME = "db_tiendavirtual";
 	const DB_USER = "root";
-	const DB_PASSWORD = "";
+	const DB_PASSWORD = "3201442";
 	const DB_CHARSET = "charset=utf8";
 
 	//Deliminadores decimal y millar Ej. 24,1989.00

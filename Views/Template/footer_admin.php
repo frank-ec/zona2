@@ -1,3 +1,7 @@
+<script>
+  const base_url = "<?= base_url();?>" //Devuelve la url raiz del proyecto
+</script>
+
 <!-- Essential javascripts for application to work F@ carga scripts-->
 <script src="<?= media();?>/js/jquery-3.3.1.min.js"></script>
     <script src="<?= media();?>/js/popper.min.js"></script>

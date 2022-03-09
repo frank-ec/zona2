@@ -17,6 +17,7 @@
 		public function getRoles()
 		{
 			$arrData = $this->model->selectRoles();
+			//dep($arrData);
 			echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
 			die();
 		}

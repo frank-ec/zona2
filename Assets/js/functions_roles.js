@@ -2,14 +2,14 @@ var tableRoles;
 
 document.addEventListener('DOMContentLoaded', function(){
 
-	tableRoles = $('#tableRoles').dataTable( {
+	tableRoles = $('#tableRoles').dataTable( {  // Aqui la referencia a la tabla
 		"aProcessing":true,
 		"aServerSide":true,
         "language": {
         	"url": "//cdn.datatables.net/plug-ins/1.10.20/i18n/Spanish.json"
         },
         "ajax":{
-            "url": " "+base_url+"/Roles/getRoles",
+            "url": " "+base_url+"/Roles/getRoles", // Controlador Roles
             "dataSrc":""
         },
         "columns":[
@@ -17,6 +17,7 @@ document.addEventListener('DOMContentLoaded', function(){
             {"data":"nombrerol"},
             {"data":"descripcion"},
             {"data":"status"},
+            {"data":"options"},
           
         ],
         "resonsieve":"true",

@@ -1,6 +1,6 @@
 <?php 
 
-	class RolesModel extends Mysql
+	class RolesModel extends Mysql			// Mayuscula
 	{
 		public function __construct()
 		{

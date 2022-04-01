@@ -23,7 +23,7 @@
 					$arrData[$i]['status'] ='<span class="badge badge-success">Activo</span>';
 				}else{
 					$arrData[$i]['status'] ='<span class="badge badge-danger">Inactivo</span>';	
-				}
+				} 
 																	// Clases para trabajar roles Modal
 				$arrData[$i]['options'] = '<div class="text-center">	
 				<button class="btn btn-secondary btn-sm btnPermisosRol" rl="'.$arrData[$i]['idrol'].'" title="Permisos"><i class="fas fa-key"></i></button>
@@ -34,6 +34,10 @@
 			
 			echo json_encode($arrData,JSON_UNESCAPED_UNICODE);
 			die();
+		}
+
+		public function setRol(){
+			dep($_POST);
 		}
 	}
  ?>

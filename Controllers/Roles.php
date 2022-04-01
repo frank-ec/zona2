@@ -37,7 +37,11 @@
 		}
 
 		public function setRol(){
-			dep($_POST);
+			// dep($_POST);
+			$strRol = srtClean($_POST['txtNombre']);
+			$strDescripcion = srtClean($_POST['txtDescripcion']);
+			$intStatus = intval($_POST['listStatus']);
+			$request_rol = $this->model->insertRol($strRol,$strDescripcion,$intStatus);
 		}
 	}
  ?>
